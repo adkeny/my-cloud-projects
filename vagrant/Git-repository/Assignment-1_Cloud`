@@ -1,6 +1,6 @@
 # Hand-on Exercise on File Manipulation and User Permission with LinuxOS.
 #Resource for this Exercise include:
-#1. PC with Linux Os Installed as VM 
+#1. PC with Linux Os Installed as VM
 #2.Linux Distro: ubuntu20.04-LTS
 #Virtual Machine is configured to use vagrant shell
 
@@ -116,7 +116,7 @@ tail /etc/passwd | grep nologin
 #(to view the status of the no login user created on read-only format)
 
 #Alternatively
-sudo vi /etc/passwd 
+sudo vi /etc/passwd
 #(if the user already exist and want to put apply a nologin restrictions )
 
 type "I"
@@ -125,6 +125,7 @@ type "I"
 
 type "I" ":" "set nu"
 #without the type and open and close quote mark - to set line number, if your using the Vim text editor
+
 
 #14. Disable password based authentication for ssh
 sudo vi /etc/ssh/sshd_config
